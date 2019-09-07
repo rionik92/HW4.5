@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
         RecyclerView.LayoutManager manager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(manager);
+        //we changed
     }
 
     public void onClick(View view) {
